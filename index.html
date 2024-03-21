@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vols de Clients</title>
+</head>
+<body>
+
+    <form id="avionActionsForm">
+        <p>Elige opción:</p>
+        
+        <input type="radio" id="darDeAlta" name="accionElegida" value="darDeAlta">
+        <label for="darDeAlta">Dar de Alta</label><br>
+        
+        <input type="radio" id="eliminarAvion" name="accionElegida" value="eliminarAvion">
+        <label for="eliminarAvion">Eliminar Avión</label><br>
+        
+        <input type="radio" id="mostrarAvion" name="accionElegida" value="mostrarAvion">
+        <label for="mostrarAvion">Mostrar Avión</label><br>
+        <br>
+        <button type="button" onclick="escoger()">Escoger</button>
+    </form>
+
+    <script src="claseAvion.js"></script>
+    <script src="claseAvioneta.js"></script>
+    <script src="claseAviCom.js"></script>
+    <script src="claseJet.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
